@@ -4,7 +4,7 @@ Rotate -5 0 0 1
 Camera "perspective" "float fov" [39]
 Film "image"  
 "integer xresolution" [700] "integer yresolution" [700]
-    "string filename" "killeroo-simple.exr"
+    "string filename" "killeroo-simple.png"
 
 # zoom in by feet
 # "integer xresolution" [1500] "integer yresolution" [1500]
@@ -12,7 +12,7 @@ Film "image"
 
 Sampler "halton" "integer pixelsamples" [8]
 
-Integrator "path"
+Integrator "simple"
 
 WorldBegin
 
